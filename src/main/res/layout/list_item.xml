@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+ xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/cardView"
+    >
+
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:id="@+id/cardName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Name"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                />
+
+
+            <TextView
+                android:id="@+id/cardType"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Type"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Body1"
+                />
+
+            <TextView
+                android:id="@+id/cardManaCost"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mana Cost"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Body1"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="@android:color/darker_gray" />
+
+
+        </LinearLayout>
+
+
+</android.support.v7.widget.CardView>

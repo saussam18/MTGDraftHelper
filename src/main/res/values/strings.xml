@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">MTG Draft Helper</string>
+    <string name="title_activity_card_display">CardDisplay</string>
+</resources>
